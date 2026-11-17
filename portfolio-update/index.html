@@ -1,0 +1,1100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Joshua Ojabo is a Software Engineering student building Python, C, C++, JavaScript, SQL and web applications. Explore projects, experience and credentials."
+  />
+  <meta name="theme-color" content="#0c1017" />
+  <link rel="canonical" href="https://joshua-ojabo-portfolio.vercel.app/" />
+  <meta property="og:title" content="Joshua Ojabo — Software Engineering Portfolio" />
+  <meta property="og:description" content="Software projects, technical experience and credentials from Joshua Ojabo." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://joshua-ojabo-portfolio.vercel.app/" />
+  <meta property="og:image" content="https://joshua-ojabo-portfolio.vercel.app/assets/gluca-showcase.png" />
+
+  <title>Joshua Ojabo — Software Engineer</title>
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    .project-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .project-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      min-height: 42px;
+      padding: 0 14px;
+
+      border: 1px solid rgba(17, 19, 25, 0.14);
+      border-radius: 12px;
+
+      color: #111319;
+      background: transparent;
+
+      font-size: 0.85rem;
+      font-weight: 800;
+      text-decoration: none;
+
+      transition:
+        transform 0.2s ease,
+        background 0.2s ease,
+        border-color 0.2s ease;
+    }
+
+    .project-button:hover {
+      transform: translateY(-2px);
+      background: #ebe5dc;
+    }
+
+    .primary-project-button {
+      background: #111319;
+      color: #ffffff;
+      border-color: #111319;
+    }
+
+    .primary-project-button:hover {
+      background: #272a31;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="#top" aria-label="Joshua Ojabo home">
+        <span class="brand-mark">JO</span>
+        <span>Joshua Ojabo</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#credentials">Credentials</a>
+        <a href="#education">Education</a>
+      </nav>
+
+      <a class="nav-cta" href="#contact">
+        Let's talk <span>↗</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero section-pad">
+      <div class="container hero-grid">
+
+        <div class="hero-copy reveal">
+          <div class="availability">
+            <span class="pulse"></span>
+            Open to 2027 internships & placements
+          </div>
+
+          <p class="eyebrow">
+            SOFTWARE ENGINEERING · GORLESTON, UK
+          </p>
+
+          <h1>
+            I build useful
+            <span class="accent-word">software.</span>
+          </h1>
+
+          <p class="hero-lead">
+            I'm Joshua — a penultimate-year Software Engineering student
+            building practical web applications, APIs, database systems and
+            data-structure projects.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">
+              Explore my work <span>↓</span>
+            </a>
+
+            <a
+              class="btn btn-secondary"
+              href="assets/Joshua_Ojabo_Software_Engineering_Intern_CV.pdf"
+              download
+            >
+              Download CV <span>↓</span>
+            </a>
+          </div>
+
+          <div class="quick-stats">
+            <div>
+              <strong>06</strong>
+              <span>featured projects</span>
+            </div>
+
+            <div>
+              <strong>4.3/5</strong>
+              <span>current university CGPA</span>
+            </div>
+
+            <div>
+              <strong>2027</strong>
+              <span>expected graduation</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="hero-visual reveal delay-1"
+          aria-label="Developer profile visual"
+        >
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+
+          <div class="terminal-card">
+            <div class="terminal-top">
+              <div class="dots">
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+
+              <span>portfolio.js</span>
+              <span>⌘ K</span>
+            </div>
+
+            <div class="terminal-body">
+              <div>
+                <span class="muted-code">01</span>
+                <span class="purple">const</span>
+                developer =
+                <span class="gold">"Joshua Ojabo"</span>;
+              </div>
+
+              <div>
+                <span class="muted-code">02</span>
+                <span class="purple">const</span>
+                focus = [
+              </div>
+
+              <div>
+                <span class="muted-code">03</span>
+                &nbsp;&nbsp;<span class="gold">"Software Engineering"</span>,
+              </div>
+
+              <div>
+                <span class="muted-code">04</span>
+                &nbsp;&nbsp;<span class="gold">"Web Development"</span>,
+              </div>
+
+              <div>
+                <span class="muted-code">05</span>
+                &nbsp;&nbsp;<span class="gold">"Problem Solving"</span>
+              </div>
+
+              <div>
+                <span class="muted-code">06</span>
+                ];
+              </div>
+
+              <div>
+                <span class="muted-code">07</span>
+              </div>
+
+              <div>
+                <span class="muted-code">08</span>
+                status =
+                <span class="green">"ready to build"</span>;
+              </div>
+            </div>
+          </div>
+
+          <div class="floating-card float-one">
+            <span class="mini-icon">⌁</span>
+
+            <div>
+              <small>Currently learning</small>
+              <strong>Software Engineering</strong>
+            </div>
+          </div>
+
+          <div class="floating-card float-two">
+            <span class="mini-icon">✦</span>
+
+            <div>
+              <small>HackEd Norwich</small>
+              <strong>Runner-up · 2026</strong>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div
+        class="container tech-strip reveal delay-2"
+        aria-label="Technology stack"
+      >
+        <span>PYTHON</span>
+        <i>•</i>
+
+        <span>JAVASCRIPT</span>
+        <i>•</i>
+
+        <span>SQL</span>
+        <i>•</i>
+
+        <span>C</span>
+        <i>•</i>
+
+        <span>HTML/CSS</span>
+        <i>•</i>
+
+        <span>C++</span>
+        <i>•</i>
+
+        <span>FLASK</span>
+        <i>•</i>
+
+        <span>GIT</span>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about section-pad">
+      <div class="container about-grid">
+
+        <div class="section-intro reveal">
+          <p class="eyebrow">ABOUT ME</p>
+
+          <h2>
+            Learning fast.<br />
+            Building faster.
+          </h2>
+        </div>
+
+        <div class="about-content reveal delay-1">
+          <p class="about-lead">
+            My strongest experience comes from building and explaining working
+            software — from a 72-hour health-tech hackathon MVP to deployed
+            client and academic applications.
+          </p>
+
+          <div class="about-columns">
+            <p>
+              I enjoy taking a requirement, breaking it down, writing the
+              code, debugging what goes wrong and improving the result until
+              it works cleanly.
+            </p>
+
+            <p>
+              I work with Python, C, C++, JavaScript and SQL, and I am
+              strengthening the computer-science foundations behind reliable
+              software: data structures, networking, testing and validation.
+            </p>
+          </div>
+
+          <div class="about-links">
+            <a
+              href="https://www.linkedin.com/in/joshua-ojabo-a41176327"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn ↗
+            </a>
+
+            <a href="mailto:joshuaojabo7@gmail.com">
+              Email me ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects section-pad">
+      <div class="container">
+
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">SELECTED WORK</p>
+
+            <h2>
+              Projects that show<br />
+              how I think.
+            </h2>
+          </div>
+
+          <a
+            class="inline-link"
+            href="https://github.com/joshojabs"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View all on GitHub ↗
+          </a>
+        </div>
+
+        <!-- GLUCA -->
+        <article class="project-feature reveal">
+          <div class="project-copy">
+
+            <div class="project-number">
+              01 / FEATURED
+            </div>
+
+            <div class="project-badges">
+              <span>Backend</span>
+              <span>API Integration</span>
+              <span>72 Hours</span>
+              <span>Barcode Scanning</span>
+            </div>
+
+            <h3>Gluca</h3>
+
+            <p>
+              A diabetes-management support application built by a 10-person
+              team in 72 hours. I set up the GitHub repository, contributed to
+              the backend and interface, tested the user flow and helped present
+              the MVP. The barcode flow queries Open Food Facts for product and
+              nutrition data, while Spoonacular provides recipe integration;
+              missing results are handled without breaking the experience.
+            </p>
+
+            <div class="project-result">
+              <span>Result</span>
+
+              <strong>
+                Runner-up at HackEd Norwich 2026
+              </strong>
+            </div>
+
+            <a
+              class="project-link"
+              href="https://github.com/joshojabs/Group19-HackEd-"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Explore project <span>↗</span>
+            </a>
+          </div>
+
+          <div class="project-art gluca-photo-wrap">
+            <img
+              class="gluca-photo"
+              src="assets/gluca-showcase.png"
+              alt="Gluca logo, HackEd Norwich team photo and runner-up certificate"
+            />
+
+            <div class="photo-caption">
+              <span>HackEd Norwich 2026</span>
+              <strong>Runner-up</strong>
+            </div>
+          </div>
+        </article>
+
+        <div class="project-grid">
+
+          <!-- WEEKLY SCHEDULER -->
+          <article class="project-card reveal">
+            <div class="project-card-top">
+              <span class="project-number">02</span>
+              <span class="card-icon">◷</span>
+            </div>
+            <div class="mini-window scheduler-window">
+              <div class="scheduler-head"><i></i><i></i><i></i></div>
+              <div class="scheduler-days"><span></span><span></span><span></span><span></span><span></span></div>
+              <div class="scheduler-blocks"><i></i><i></i><i></i></div>
+            </div>
+            <div class="card-body">
+              <p class="card-category">JAVASCRIPT · RESPONSIVE WEB · BROWSER STORAGE</p>
+              <h3>Joshua's Weekly System</h3>
+              <p>
+                A mobile-responsive weekly planning app with Today, Week,
+                Progress and Settings views. It tracks task completion, daily
+                habits and streaks, persists user progress in the browser and
+                uses notifications to support a consistent routine.
+              </p>
+              <div class="project-buttons">
+                <a class="project-button primary-project-button" href="https://daily-scheduler-v2.vercel.app" target="_blank" rel="noreferrer">Live Demo ↗</a>
+                <a class="project-button" href="https://github.com/joshojabs/Daily-scheduler-V2" target="_blank" rel="noreferrer">View Code ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- O BOTICARIO -->
+          <article class="project-card reveal delay-1">
+            <div class="project-card-top">
+              <span class="project-number">03</span>
+              <span class="card-icon">◈</span>
+            </div>
+            <div class="mini-window commerce-window">
+              <div class="commerce-nav"><strong>O Boticário</strong><span>PT / EN</span></div>
+              <div class="commerce-products"><i></i><i></i><i></i></div>
+              <div class="commerce-action"></div>
+            </div>
+            <div class="card-body">
+              <p class="card-category">CLIENT PROJECT · JAVASCRIPT · RESPONSIVE WEB</p>
+              <h3>O Boticário Reseller Catalogue</h3>
+              <p>
+                A bilingual Portuguese–English product catalogue created for
+                a small-business client. It includes search, filters,
+                favourites and direct WhatsApp product enquiries, with a
+                mobile-first interface designed around the client’s sales flow.
+              </p>
+              <div class="project-buttons">
+                <a class="project-button primary-project-button" href="https://boticario-reseller-site.vercel.app" target="_blank" rel="noreferrer">Live Site ↗</a>
+                <a class="project-button" href="https://github.com/joshojabs/boticario-reseller-site" target="_blank" rel="noreferrer">View Code ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- SLCAS -->
+          <article class="project-card reveal">
+
+            <div class="project-card-top">
+              <span class="project-number">04</span>
+              <span class="card-icon">⌘</span>
+            </div>
+
+            <div class="mini-window library-window">
+              <div class="mini-window-bar">
+                <i></i>
+                <i></i>
+                <i></i>
+              </div>
+
+              <div class="library-ui">
+                <div class="lib-sidebar"></div>
+
+                <div class="lib-main">
+                  <div class="lib-line wide"></div>
+                  <div class="lib-line"></div>
+
+                  <div class="lib-cards">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-body">
+
+              <p class="card-category">
+                JAVASCRIPT · DATA STRUCTURES · ALGORITHMS
+              </p>
+
+              <h3>
+                Smart Library Circulation & Automation System
+              </h3>
+
+              <p>
+                A fully interactive library management application built for
+                my COS 202 Data Structures & OOP project.
+
+                It includes item management, borrowing and returns,
+                reservation queues, overdue tracking, admin analytics,
+                Linear Search O(n), Merge Sort O(n log n), and stack-based
+                LIFO action history with undo functionality.
+              </p>
+
+              <div class="project-buttons">
+
+                <a
+                  class="project-button primary-project-button"
+                  href="https://slcas.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo ↗
+                </a>
+
+                <a
+                  class="project-button"
+                  href="https://github.com/joshojabs/slcas"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View Code ↗
+                </a>
+
+              </div>
+            </div>
+          </article>
+
+          <!-- FLASK / MYSQL SIGNUP -->
+          <article class="project-card reveal delay-1">
+
+            <div class="project-card-top">
+              <span class="project-number">05</span>
+              <span class="card-icon">⌁</span>
+            </div>
+
+            <div class="mini-window signup-window">
+              <div class="signup-form">
+                <i></i><i></i><i></i><span></span>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <p class="card-category">
+                PYTHON · FLASK · MYSQL · SECURITY
+              </p>
+
+              <h3>Secure Signup Application</h3>
+
+              <p>
+                A university lab application implementing a Flask-to-MySQL
+                signup flow. It validates required fields, hashes passwords
+                before storage and tests empty-input behaviour to prevent
+                incomplete records from reaching the database.
+              </p>
+
+              <span class="card-link muted-project-link">University lab project</span>
+            </div>
+          </article>
+
+          <!-- IPV6 NETWORK -->
+          <article class="project-card reveal delay-2">
+
+            <div class="project-card-top">
+              <span class="project-number">06</span>
+              <span class="card-icon">⌘</span>
+            </div>
+
+            <div class="mini-window network-window">
+              <div class="network-scene">
+                <i></i><i></i><i></i><i></i><span></span>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <p class="card-category">
+                CISCO PACKET TRACER · IPV6 · NETWORKING
+              </p>
+
+              <h3>
+                IPv6 Network Configuration Lab
+              </h3>
+
+              <p>
+                Configured and tested an IPv6 network topology in Cisco Packet
+                Tracer. Assigned addresses, verified connectivity and used
+                structured troubleshooting to isolate configuration errors.
+              </p>
+              <span class="card-link muted-project-link">Networking coursework</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills section-pad">
+      <div class="container">
+
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">CAPABILITIES</p>
+
+            <h2>
+              Tools I use<br />
+              to build.
+            </h2>
+          </div>
+
+          <p class="section-note">
+            A growing toolkit built through coursework, personal projects
+            and hands-on problem solving.
+          </p>
+        </div>
+
+        <div class="skill-bento">
+
+          <article class="skill-card skill-large reveal">
+            <span class="skill-index">01</span>
+
+            <h3>
+              Programming
+            </h3>
+
+            <p>
+              Python · C · C++ · JavaScript · SQL
+            </p>
+
+            <div
+              class="code-lines"
+              aria-hidden="true"
+            >
+              <i style="width:82%"></i>
+              <i style="width:64%"></i>
+              <i style="width:91%"></i>
+              <i style="width:48%"></i>
+            </div>
+          </article>
+
+          <article class="skill-card reveal delay-1">
+            <span class="skill-index">02</span>
+
+            <h3>Web</h3>
+
+            <p>
+              HTML5 · CSS3 · Flask · Responsive layouts · REST APIs
+            </p>
+          </article>
+
+          <article class="skill-card reveal delay-2">
+            <span class="skill-index">03</span>
+
+            <h3>
+              Software Engineering
+            </h3>
+
+            <p>
+              Data structures · OOP · Debugging · Testing · Input validation
+            </p>
+          </article>
+
+          <article class="skill-card reveal">
+            <span class="skill-index">04</span>
+
+            <h3>Tools</h3>
+
+            <p>
+              Git · GitHub · VS Code · Vercel · MySQL · Cisco Packet Tracer
+            </p>
+          </article>
+
+          <article class="skill-card skill-accent reveal delay-1">
+            <span class="skill-index">05</span>
+
+            <h3>
+              Systems & Networking
+            </h3>
+
+            <p>
+              IPv6 · REST integration · Database flows · Technical documentation
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="experience section-pad">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">EXPERIENCE</p>
+            <h2>Working with people.<br />Owning the details.</h2>
+          </div>
+          <p class="section-note">
+            Experience that strengthened my communication, organisation and
+            reliability alongside my technical work.
+          </p>
+        </div>
+
+        <div class="experience-list">
+          <article class="experience-item reveal">
+            <div>
+              <span class="experience-date">JUL — AUG 2025</span>
+              <h3>Temporary Sales Assistant</h3>
+              <p class="experience-company">Levi's · Portsmouth</p>
+            </div>
+            <ul>
+              <li>Supported customers in a busy retail environment and communicated product information clearly.</li>
+              <li>Worked accurately across stock, fitting-room and shop-floor tasks while priorities changed throughout each shift.</li>
+            </ul>
+          </article>
+
+          <article class="experience-item reveal delay-1">
+            <div>
+              <span class="experience-date">AUG 2024 — MAY 2025</span>
+              <h3>Inventory Clerk & Volunteer</h3>
+              <p class="experience-company">Onyanta Hope Alive Foundation</p>
+            </div>
+            <ul>
+              <li>Maintained organised inventory records and supported the accurate tracking of donated items.</li>
+              <li>Collaborated with volunteers to prepare resources and keep day-to-day activities running smoothly.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS & CREDENTIALS -->
+    <section id="credentials" class="achievements section-pad">
+      <div class="container">
+
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">
+              ACHIEVEMENTS & CREDENTIALS
+            </p>
+
+            <h2>
+              Verified progress.
+            </h2>
+          </div>
+
+          <p class="section-note">
+            Competition results and completed learning with evidence you can open or verify.
+          </p>
+        </div>
+
+        <div class="achievement-grid achievement-grid-compact">
+
+          <article class="achievement-card reveal">
+            <span class="achievement-year">
+              2026
+            </span>
+
+            <h3>
+              HackEd Norwich — Runner-up
+            </h3>
+
+            <p>
+              Built Gluca with a new team in 72 hours and presented the
+              finished MVP to judges.
+            </p>
+          </article>
+
+          <article class="achievement-card reveal delay-1">
+            <span class="achievement-year">
+              2025
+            </span>
+
+            <h3>
+              UK Bebras — Merit
+            </h3>
+
+            <p>
+              Scored 75 in the Elite (16–19) Computational Thinking
+              Challenge.
+            </p>
+          </article>
+
+        </div>
+
+        <div class="credential-grid">
+          <article class="credential-card reveal">
+            <a class="credential-image-link" href="assets/certificates/educative-learn-python-3.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/certificates/educative-learn-python-3.png" alt="Learn Python 3 certificate issued to Joshua Ojabo by Educative" loading="lazy" />
+            </a>
+            <div class="credential-content">
+              <span>EDUCATIVE · 15 NOV 2026</span>
+              <h3>Learn Python 3</h3>
+              <p>10-hour interactive course covering Python fundamentals and problem solving.</p>
+              <div class="credential-actions">
+                <a href="assets/certificates/educative-learn-python-3.png" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+                <span>Credential ID: S7OUM93F30</span>
+              </div>
+            </div>
+          </article>
+          <article class="credential-card reveal delay-1">
+            <a
+              class="credential-image-link"
+              href="assets/certificates/hackerrank-sql-basic.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="assets/certificates/hackerrank-sql-basic.png"
+                alt="HackerRank SQL Basic certificate issued to Joshua Ojabo"
+                loading="lazy"
+              />
+            </a>
+
+            <div class="credential-content">
+              <span>HACKERRANK · 14 APR 2025</span>
+
+              <h3>SQL (Basic)</h3>
+
+              <p>
+                Passed HackerRank's SQL skill certification assessment,
+                covering foundational querying and relational-database concepts.
+              </p>
+
+              <div class="credential-actions">
+                <a
+                  href="assets/certificates/hackerrank-sql-basic.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View certificate ↗
+                </a>
+
+                <span>Credential ID: C0Q8QE3O98E4</span>
+              </div>
+            </div>
+          </article>
+          
+
+          <article class="credential-card reveal delay-1">
+            <a class="credential-image-link" href="assets/certificates/sovrano-ai-training-basics.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/certificates/sovrano-ai-training-basics.png" alt="AI Training and Evaluations: The Basics certificate issued to Joshua Ojabo" loading="lazy" />
+            </a>
+            <div class="credential-content">
+              <span>SOVRANO AI · 10 NOV 2026</span>
+              <h3>AI Training and Evaluations: The Basics</h3>
+              <p>Foundations of AI training, model evaluation and the role of expert human judgement.</p>
+              <div class="credential-actions">
+                <a href="assets/certificates/sovrano-ai-training-basics.png" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+                <a href="https://app.sovrano.ai/certificate?certId=SOV-RV8H8G1A" target="_blank" rel="noopener noreferrer">Verify credential ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="credential-card reveal">
+            <a class="credential-image-link" href="assets/certificates/sovrano-evaluating-ai-answers.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/certificates/sovrano-evaluating-ai-answers.png" alt="Evaluating AI Answers certificate issued to Joshua Ojabo" loading="lazy" />
+            </a>
+            <div class="credential-content">
+              <span>SOVRANO AI · 17 NOV 2026</span>
+              <h3>Evaluating AI Answers</h3>
+              <p>Applying clear guidelines and evidence-based judgement to assess AI responses.</p>
+              <div class="credential-actions">
+                <a href="assets/certificates/sovrano-evaluating-ai-answers.png" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+                <a href="https://app.sovrano.ai/certificate?certId=SOV-ZT8EH43K" target="_blank" rel="noopener noreferrer">Verify credential ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="credential-card reveal delay-1">
+            <a class="credential-image-link" href="assets/certificates/sovrano-spot-ai-writing.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/certificates/sovrano-spot-ai-writing.png" alt="Spot AI Writing certificate issued to Joshua Ojabo" loading="lazy" />
+            </a>
+            <div class="credential-content">
+              <span>SOVRANO AI · 17 NOV 2026</span>
+              <h3>Spot AI Writing</h3>
+              <p>Recognising AI-writing patterns and comparing responses using clear reasoning.</p>
+              <div class="credential-actions">
+                <a href="assets/certificates/sovrano-spot-ai-writing.png" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+                <a href="https://app.sovrano.ai/certificate?certId=SOV-GQBB7WBN" target="_blank" rel="noopener noreferrer">Verify credential ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="credential-card reveal">
+            <a class="credential-image-link" href="assets/certificates/sovrano-ai-agents-future-of-work.png" target="_blank" rel="noopener noreferrer">
+              <img src="assets/certificates/sovrano-ai-agents-future-of-work.png" alt="AI Agents: The Future of Work certificate issued to Joshua Ojabo" loading="lazy" />
+            </a>
+            <div class="credential-content">
+              <span>SOVRANO AI · 17 NOV 2026</span>
+              <h3>AI Agents: The Future of Work</h3>
+              <p>Understanding AI agents, how they are trained and how people support their development.</p>
+              <div class="credential-actions">
+                <a href="assets/certificates/sovrano-ai-agents-future-of-work.png" target="_blank" rel="noopener noreferrer">View certificate ↗</a>
+                <a href="https://app.sovrano.ai/certificate?certId=SOV-4QH35KVC" target="_blank" rel="noopener noreferrer">Verify credential ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section
+      id="education"
+      class="education section-pad"
+    >
+      <div class="container education-grid">
+
+        <div class="education-intro reveal">
+          <p class="eyebrow">
+            EDUCATION
+          </p>
+
+          <h2>
+            Building the<br />
+            foundation.
+          </h2>
+
+          <p>
+            Three learning environments, one direction: becoming a strong
+            software engineer.
+          </p>
+        </div>
+
+        <div class="education-list">
+
+          <article class="education-item reveal">
+
+            <div class="edu-line">
+              <span>01</span>
+            </div>
+
+            <div>
+              <p class="edu-type">
+                B.SC. SOFTWARE ENGINEERING
+              </p>
+
+              <h3>
+                MIVA Open University
+              </h3>
+
+              <p>
+                Current CGPA: 4.3/5. Expected graduation: December 2027.
+                Relevant study includes programming, data structures,
+                databases, networking and software development.
+              </p>
+            </div>
+          </article>
+
+          <article class="education-item reveal delay-1">
+
+            <div class="edu-line">
+              <span>02</span>
+            </div>
+
+            <div>
+              <p class="edu-type">
+                SOFTWARE ENGINEERING COURSEWORK
+              </p>
+
+              <h3>
+                Aptech Computer Education
+              </h3>
+
+              <p>
+                Earlier structured study in programming, web development,
+                databases, UI/UX and software-development principles. Studies
+                paused before completion.
+              </p>
+            </div>
+          </article>
+
+          <article class="education-item reveal delay-2">
+
+            <div class="edu-line">
+              <span>03</span>
+            </div>
+
+            <div>
+              <p class="edu-type">
+                DIGITAL MEDIA · EPQ
+              </p>
+
+              <h3>
+                East Norfolk Sixth Form College
+              </h3>
+
+              <p>
+                Current college study developing research, digital production,
+                communication and independent project skills.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section
+      id="contact"
+      class="contact section-pad"
+    >
+      <div class="container contact-shell reveal">
+
+        <div class="contact-glow"></div>
+
+        <div>
+          <p class="eyebrow light">
+            LET'S CONNECT
+          </p>
+
+          <h2>
+            Looking for someone<br />
+            ready to grow?
+          </h2>
+
+          <p class="contact-copy">
+            I'm open to software engineering apprenticeships, internships
+            and junior developer opportunities.
+          </p>
+        </div>
+
+        <div class="contact-actions">
+
+          <a
+            class="contact-main"
+            href="mailto:joshuaojabo7@gmail.com"
+          >
+            <span>Email me</span>
+            <strong>
+              joshuaojabo7@gmail.com
+            </strong>
+
+            <i>↗</i>
+          </a>
+
+          <div class="contact-small-grid">
+
+            <a href="assets/Joshua_Ojabo_Software_Engineering_Intern_CV.pdf" download>
+              <span>CV</span>
+              <strong>Download PDF ↓</strong>
+            </a>
+
+            <a
+              href="https://github.com/joshojabs"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>GitHub</span>
+              <strong>@joshojabs ↗</strong>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/joshua-ojabo-a41176327"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>LinkedIn</span>
+              <strong>Joshua Ojabo ↗</strong>
+            </a>
+
+            <div>
+              <span>Location</span>
+              <strong>Gorleston, UK</strong>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-shell">
+      <span>
+        © 2026 Joshua Ojabo
+      </span>
+
+      <span>
+        Designed & built for the web.
+      </span>
+
+      <a href="#top">
+        Back to top ↑
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
